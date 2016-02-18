@@ -77,7 +77,7 @@ gulp.task('img', function() {
 
 gulp.task('copyfonts', function() {
    gulp.src(devdir + '/fonts/**/*.{ttf,woff,woff2,eof,svg,eot}')
-   .pipe(gulp.dest(cssdir + '/typo'));
+   .pipe(gulp.dest(cssdir + '/fonts'));
 });
 gulp.task('copyimages', function() {
     gulp.src(devdir + '/img/*.{png,jpg,gif,svg}')

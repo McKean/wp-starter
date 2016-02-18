@@ -1,6 +1,6 @@
 {
-  "name": "scort",
-  "version": "0.0.0",
+  "name": "wp-starter",
+  "version": "1.0.0",
   "authors": [
     "Christopher Scott <christopher.scott@cmcks.com>"
   ],
@@ -13,23 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "slick.js": "~1.5.8",
-    "tether": "~1.1.1",
     "bootstrap": "4.0",
-    "gsap": "~1.18.2",
-    "scrollmagic": "~2.0.5"
-  },
-  "overrides": {
-      "scrollmagic": {
-          "main": [
-              "scrollmagic/uncompressed/ScrollMagic.js",
-              "scrollmagic/uncompressed/plugins/debug.addIndicators.js",
-              "scrollmagic/uncompressed/plugins/animation.gsap.js"
-          ]
-      },
-      "bootstrap": {
-          "main": []
-      }
   },
   "devDependencies": {}
 }
