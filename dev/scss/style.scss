@@ -1,0 +1,19 @@
+/* bootstrap custom variables */
+@import "variables";
+/* bootstrap master */
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+
+/* base styles */
+@import "base";
+@import "components";
+
+/* font awesome */
+@import "font-awesome/font-awesome";
+@import "ionicons/ionicons";
+
+
+/* SAMPLE MEDIA QUERY
+@media all and (min-width: 50em) {
+  @import "small";
+}
+*/
